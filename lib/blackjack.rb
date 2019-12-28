@@ -39,12 +39,12 @@ def hit?(initial_round)
     return total
   else
     invalid_command
-    prompt_user
   end
 end
 
 def invalid_command
   puts "Please enter a valid command"
+  prompt_user
 end
 
 #####################################################
