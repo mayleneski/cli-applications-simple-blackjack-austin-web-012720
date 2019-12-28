@@ -40,6 +40,7 @@ def hit?(initial_round)
   else
     invalid_command
   end
+  prompt_user
 end
 
 def invalid_command
